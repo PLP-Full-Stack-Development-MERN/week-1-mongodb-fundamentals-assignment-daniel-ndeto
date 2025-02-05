@@ -1,4 +1,3 @@
-```markdown
 # MongoDB Library Database Project
 
 ## Introduction
@@ -18,7 +17,6 @@ Follow the official installation guide for your operating system:
   ```sh
   brew tap mongodb/brew
   brew install mongodb-community@6.0
-  ```
 - Linux: [MongoDB Installation Guide](https://docs.mongodb.com/manual/administration/install-on-linux/)
 
 ### **2. Start MongoDB Server**
