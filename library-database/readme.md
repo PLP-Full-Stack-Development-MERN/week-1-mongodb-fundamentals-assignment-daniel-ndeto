@@ -100,19 +100,7 @@ db.books.getIndexes()
 ```sh
 // Find total books per genre
 db.books.aggregate([{ $group: { _id: "$genre", totalBooks: { $sum: 1 } } }]).forEach(printjson)
-```
 
-## Submission Instructions
-1. Push your code to GitHub:
-   ```sh
-   git init
-   git add .
-   git commit -m "MongoDB Library Database Project"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/mongodb-library.git
-   git push -u origin main
-   ```
-2. Share the GitHub repository link.
 
 ## Conclusion
 This project covers fundamental MongoDB operations with a book collection. It demonstrates CRUD operations, aggregation, and indexing to optimize queries.
