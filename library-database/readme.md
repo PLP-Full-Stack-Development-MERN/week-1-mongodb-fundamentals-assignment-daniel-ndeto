@@ -97,7 +97,7 @@ db.books.find().pretty()
 db.books.getIndexes()
 ```
 ### **3. Run Aggregation Queries**
-```sh
+
 // Find total books per genre
 db.books.aggregate([{ $group: { _id: "$genre", totalBooks: { $sum: 1 } } }]).forEach(printjson)
 
